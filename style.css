@@ -9,6 +9,8 @@ body {
   background-color: #b4eafb;
   border-radius: 10px;
   font-size: 30px;
+  position: relative;
+  left: 200px;
 }
 
 button {
@@ -20,11 +22,26 @@ button {
   color: black;
   width: 30px;
   border-radius: 3px;
+  position: absolute;
+  top: 0;
+  left: calc(50vw - 30px);
+
+}
+
+.help {
+  border-radius: 50px;
+  position: fixed;
+  color: white;
+  background-color: lightcoral;
+
 }
 
 .ok {
   background-color: #28a745;
   color: white;
+  position: absolute;
+  right: calc(50vw/2 - 30px);
+  top: calc(40vh/2);
 }
 
 /* sem přijdou tvoje styly */
